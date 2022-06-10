@@ -1,0 +1,204 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+
+.sticky{
+    display: grid;
+    grid-template-columns: 105px 105px 105px;
+    justify-content: right;
+    color: white;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    font-family: Bangers;
+    font-size: 23px;
+}
+
+.home{
+    background-color: rgb(209, 209, 46);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+    padding-left: 21px;
+    padding-right: 21px;
+
+}
+
+.books{
+    background-color: rgb(175, 175, 45);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+    padding-right: 17px;
+}
+
+.movies{
+    background-color: rgb(131, 131, 33);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: Bangers;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: rgb(226, 226, 12);
+}
+
+h2{
+    text-align: center;
+    font-family: Bangers;
+    letter-spacing: 5px;
+    font-size: 70px;
+}
+
+.short_story{
+    text-align: center;
+    font-size: 38px;
+    font-family: Bangers;
+}
+
+.adventures{
+    display: grid;
+    grid-template-columns: 800px 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.apic{
+    height: 700px;
+    width: 440px;
+
+}
+
+.apara{
+    font-family: Bangers;
+    font-size: 35px;
+}
+
+.ul{
+    line-height: 40px;
+}
+
+.memoirs{
+    display: grid;
+    grid-template-columns: 900px 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mpic{
+    height: 800px;
+    width: 520px;
+    padding-left: 80px;
+}
+
+.mpara{
+    font-family: Bangers;
+    font-size: 35px;
+}
+
+.return{
+    display: grid;
+    grid-template-columns: 800px 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpic{
+    height: 700px;
+    width: 440px;
+
+}
+
+.rpara{
+    font-family: Bangers;
+    font-size: 35px;
+}
+
+.last{
+    display: grid;
+    grid-template-columns: 900px 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bpic{
+    height: 800px;
+    width: 520px;
+    padding-left: 80px;
+}
+
+.bpara{
+    font-family: Bangers;
+    font-size: 35px;
+}
+
+.case{
+    display: grid;
+    grid-template-columns: 800px 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpic{
+    height: 700px;
+    width: 440px;
+
+}
+
+.cpara{
+    font-family: Bangers;
+    font-size: 35px;
+}
+
+.scarlet{
+    display: grid;
+    grid-template-columns: 900px 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.spic{
+    height: 650px;
+    width: 400px;
+    padding-left: 80px;
+}
+
+.spara{
+    font-family: Bangers;
+    font-size: 38px;
+}
+
+.novels{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+img{
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
+img:hover{
+    transform: rotate(5deg);
+}

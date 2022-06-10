@@ -1,0 +1,180 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Bangers;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 105px 105px 105px;
+    justify-content: right;
+    color: white;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    font-family: Bangers;
+    font-size: 23px;
+}
+
+.sticky{
+    display: grid;
+    grid-template-columns: 105px 105px 105px;
+    justify-content: right;
+    color: white;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    font-family: Bangers;
+    font-size: 23px;
+}
+
+.home{
+    background-color: rgb(209, 209, 46);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+    padding-left: 21px;
+    padding-right: 21px;
+
+}
+
+.books{
+    background-color: rgb(175, 175, 45);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+    padding-right: 17px;
+}
+
+.movies{
+    background-color: rgb(131, 131, 33);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 600px 600px 600px 600px;
+}
+
+.holmes{
+    display: grid;
+    grid-template-columns: 500px 1100px; 
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 400px;
+    width: 260px;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
+img:hover{
+    transform: rotate(5deg);
+}
+
+.hpara{
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.holmes2{
+    display: grid;
+    grid-template-columns: 500px 1100px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.h2pic{
+    height: 400px;
+    width: 270px;
+}
+
+.h2para{
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.enola{
+    display: grid;
+    grid-template-columns: 500px 1100px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.epic{
+    height: 400px;
+    width: 270px;
+}
+
+.epara{
+    font-size: 35px;
+    line-height: 35px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.a_fact{
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: rgb(245, 245, 12) ;
+}
+
+.a_fact_a{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.IMDb{
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.all_para_p{
+    color: rgb(236, 236, 20);
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.sherlock{
+    display: grid;
+    grid-template-columns: 500px 1100px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.spic{
+    height: 400px;
+    width: 270px;
+}
+
+.spara{
+    font-size: 35px;
+    line-height: 35px;
+}

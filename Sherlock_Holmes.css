@@ -1,0 +1,138 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 105px 105px 105px;
+    justify-content: right;
+    color: white;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    font-family: Bangers;
+    font-size: 23px;
+}
+
+.header{
+    background-color: black;
+    background-image: url(Sherlock.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position-y: center ;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 700px;
+}
+
+.black{
+    background-color: black;
+}
+
+.title{
+    padding-top: 70px;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    height: 650px;
+    font-family: Bangers;
+    letter-spacing: 5px;
+}
+
+.holmes{
+    font-size: 200px;
+}
+
+h2{
+    font-size: 35px;
+    letter-spacing: 10px;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Bangers;
+}
+
+
+.about_holmes{
+    display: grid;
+    grid-template-rows:70px 500px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+h3{
+    font-size: 60px;
+    font-family: Bangers;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home{
+    background-color: rgb(209, 209, 46);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+    padding-left: 21px;
+    padding-right: 21px;
+
+}
+
+.books{
+    background-color: rgb(175, 175, 45);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+    padding-right: 17px;
+}
+
+.movies{
+    background-color: rgb(131, 131, 33);
+    color: rgba(0, 0, 0, 0.493);
+    padding: 14px;
+}
+
+.author{
+    font-family: Bangers;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1350px 250px;
+    align-items: center;
+}
+
+.para{
+    font-size: 33px;
+    padding: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.about_holmes_para{
+    text-align: center;
+    line-height: 35px;
+}
+
+.about_sherlock_holmes{
+    color: rgb(214, 214, 16);
+}
